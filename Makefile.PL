@@ -5,7 +5,7 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     NAME                => 'IDS::Test',
     AUTHOR              => 'Kenneth Ingham <cpan@i-pi.com>',
-    VERSION_FROM        => 'lib/IDS/Test.pm',
+    VERSION_FROM        => 'lib/IDS/Utils.pm',
     PL_FILES            => {},
     PREREQ_PM => {
         'Test::More' => 0,
